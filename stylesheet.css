@@ -1,5 +1,6 @@
 .body {
   font-family: "Avenir Next";
+  margin: 0;
 }
 
 li {
@@ -23,12 +24,23 @@ li {
   padding: 33px 20px;
 }
 
-.main {
-  padding: 100px 80px;
+.main{
+  padding: 0px 0px
+}
+
+.copy-container {
+  background-image: url(file:///Users/kumagai/Downloads/IMG_5924.JPG);
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper {
+  width 100%;
 }
 
 .copy-container h1 {
   font-size: 140px;
+  padding-top: 100px;
 }
 
 .copy-container h2 {
@@ -41,15 +53,23 @@ li {
 
 .contents {
   height: 500px;
+  padding-bottom: 80px;
 }
 
 .section-title {
   border-bottom: 2px solid #dee7ec;
 }
 
+.contents{
+  width: 100%;
+  text-align: center;
+}
+
 .contents-item {
   float: left;
+  width: 25%;
 }
+
 .footer {
   background-color: #2f5167;
   color: #fff;
