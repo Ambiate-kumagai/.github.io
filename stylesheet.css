@@ -208,14 +208,6 @@ footer {
   .heading h2 {
     font-size: 20px;
   }
-  
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
 }
 
 @media (max-width: 670px) {
