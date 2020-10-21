@@ -214,6 +214,7 @@ footer {
   .lesson {
     width: 100%;
   }
+
   footer {
     text-align: center;
   }
@@ -236,5 +237,13 @@ footer {
 
   .top-wrapper p {
     font-size: 14px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
   }
 }
